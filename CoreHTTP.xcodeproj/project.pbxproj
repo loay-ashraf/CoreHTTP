@@ -19,7 +19,6 @@
 		C658CF322AD5E2BA009E561D /* HTTPClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF092AD5DEA1009E561D /* HTTPClientError.swift */; };
 		C658CF332AD5E2BC009E561D /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF0A2AD5DEA1009E561D /* HTTPError.swift */; };
 		C658CF342AD5E2BF009E561D /* HTTPServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF0B2AD5DEA1009E561D /* HTTPServerError.swift */; };
-		C658CF352AD5E2C3009E561D /* HTTPRequestEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF0D2AD5DEA1009E561D /* HTTPRequestEventMonitor.swift */; };
 		C658CF362AD5E2C7009E561D /* HTTPRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF0F2AD5DEA1009E561D /* HTTPRequestAdapter.swift */; };
 		C658CF372AD5E2C9009E561D /* HTTPRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF102AD5DEA1009E561D /* HTTPRequestInterceptor.swift */; };
 		C658CF382AD5E2CB009E561D /* HTTPRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658CF112AD5DEA1009E561D /* HTTPRequestRetrier.swift */; };
@@ -38,7 +37,6 @@
 		C658CF092AD5DEA1009E561D /* HTTPClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClientError.swift; sourceTree = "<group>"; };
 		C658CF0A2AD5DEA1009E561D /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
 		C658CF0B2AD5DEA1009E561D /* HTTPServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServerError.swift; sourceTree = "<group>"; };
-		C658CF0D2AD5DEA1009E561D /* HTTPRequestEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestEventMonitor.swift; sourceTree = "<group>"; };
 		C658CF0F2AD5DEA1009E561D /* HTTPRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestAdapter.swift; sourceTree = "<group>"; };
 		C658CF102AD5DEA1009E561D /* HTTPRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestInterceptor.swift; sourceTree = "<group>"; };
 		C658CF112AD5DEA1009E561D /* HTTPRequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestRetrier.swift; sourceTree = "<group>"; };
@@ -101,14 +99,6 @@
 			path = Error;
 			sourceTree = "<group>";
 		};
-		C658CF0E2AD5DEA1009E561D /* Event Monitor */ = {
-			isa = PBXGroup;
-			children = (
-				C658CF0D2AD5DEA1009E561D /* HTTPRequestEventMonitor.swift */,
-			);
-			path = "Event Monitor";
-			sourceTree = "<group>";
-		};
 		C658CF132AD5DEA1009E561D /* Interceptor */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				C658CF0C2AD5DEA1009E561D /* Error */,
-				C658CF0E2AD5DEA1009E561D /* Event Monitor */,
 				C658CF132AD5DEA1009E561D /* Interceptor */,
 				C658CF142AD5DED3009E561D /* Parameters */,
 				C658CF1B2AD5DF03009E561D /* Response */,
@@ -248,7 +237,6 @@
 				C658CF3A2AD5E2DB009E561D /* HTTPURLResponse+StatusCode.swift in Sources */,
 				C658CF382AD5E2CB009E561D /* HTTPRequestRetrier.swift in Sources */,
 				C658CF1E2AD5DF24009E561D /* HTTPRequestRouter.swift in Sources */,
-				C658CF352AD5E2C3009E561D /* HTTPRequestEventMonitor.swift in Sources */,
 				C658CF2D2AD5E2AA009E561D /* HTTPRequestRetryPolicy.swift in Sources */,
 				C658CF312AD5E2B8009E561D /* HTTPBodyError.swift in Sources */,
 				C658CF332AD5E2BC009E561D /* HTTPError.swift in Sources */,

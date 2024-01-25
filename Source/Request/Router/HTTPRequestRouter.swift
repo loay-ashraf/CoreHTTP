@@ -36,6 +36,12 @@ public protocol HTTPRequestRouter {
 
 public extension HTTPRequestRouter {
     
+    /// full url of the request (including: domain and path).
+    var url: URL? {
+        let urlString = scheme.rawValue + domain + "/" + path
+        return URL(string: urlString)
+    }
+    
     /// Creates `URLRequest` object using router properties.
     ///
     /// - Returns: `URLRequest` created using router properties.
